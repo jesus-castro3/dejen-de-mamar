@@ -1,0 +1,43 @@
+.MicroFrontEnd {
+  text-align: center;
+}
+
+.MicroFrontEnd-link {
+  color: #61dafb;
+}
+
+.MicroFrontEnd-frase {
+  pointer-events: none;
+  background: white;
+  border: 3px solid black;
+  position: fixed;
+  z-index: 100;
+  top: 100px;
+}
+
+.MicroFrontEnd-amiwy {
+  background-image: url('../src/amiwy1jpg.jpg');
+  background-size: 200px;
+  display: inline-block;
+  animation: MicroFrontEnd-logo-spin infinite 7s linear;
+  object-fit: cover;
+  height: 200px;
+  pointer-events: none;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+@keyframes MicroFrontEnd-logo-spin {
+  from {
+    transform: translateX(-2000px);
+    transition: 1s;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+     transform: translateX(2000px);
+     transition: 1s;
+  }
+}
